@@ -39,3 +39,7 @@ jika push kedua kali dst cukup ketik perintah  git push
 syarat kolaborasi
 1. Invite developernya ke repo kita
 2. narik perubahan dari tim collaborator lain :git pull
+
+
+Note : penggunaan git ignore 
+untuk mengabaikan sebuah file dalam sebuah folder agar tidak terkirim ke github
