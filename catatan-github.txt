@@ -33,3 +33,4 @@ git config --global user.name "yourAccountName"
 git add . => menambahkan semua file
 git commit -m "pesan commit"
 git push -u origin main => finalisasi pengiriman source code
+jika push kedua kali dst cukup ketik perintah  git push
