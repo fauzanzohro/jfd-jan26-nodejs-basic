@@ -1,0 +1,16 @@
+github adalah: sebuah website tempat berbagi bermacam macam source code
+
+selain github ada juga 
+gitlab,bitbucket,gitkraken
+
+fungsi utama github adalah :
+
+1. untuk menyimpan source code secara online
+2. untuk kolaborasi antar developer
+3. sebagai alat atau tools untuk menarik source code ke server 
+4. untuk versioning / kembali keversi sebelumnya
+
+status dalam git:
+Untracked => file yang belum terdeteksi oleh sistem git.
+
+git init => mendaftarkan repo lokal kita sebagai repo  yang sudah memakai sistem git
