@@ -11,6 +11,25 @@ fungsi utama github adalah :
 4. untuk versioning / kembali keversi sebelumnya
 
 status dalam git:
-Untracked => file yang belum terdeteksi oleh sistem git.
+U / Untracked => file yang belum terdeteksi oleh sistem git.
+M / Modified  => file yg existing di modifikasi atau di lakukan perubahan isi file.
+A / Added     => file sudah memasuki tahap add 
 
+
+
+
+langkah langkah  mengirim source code ke github
+1. add     =>  keluar rumah
+2. commit  => udah di jalan dan udah sampe di kantor
+3. push    => masuk ke dalam kantor
+
+
+langkahlangkah menghubungkan repo baru di lokal & server github
 git init => mendaftarkan repo lokal kita sebagai repo  yang sudah memakai sistem git
+git branc -M main => mengganti cabang utama dengan nama main
+git remote add origin https://link-repo-github-kita => menghubungkan repo lokal dengan repo tujuan
+git config --global user.email "youremail@provider.com"
+git config --global user.name "yourAccountName"
+git add . => menambahkan semua file
+git commit -m "pesan commit"
+git push -u origin main => finalisasi pengiriman source code
